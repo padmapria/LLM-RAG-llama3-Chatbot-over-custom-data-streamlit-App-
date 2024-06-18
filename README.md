@@ -1,5 +1,7 @@
 # LLM RAG Chatbot over custom data with ui
 
+llama3 reference : https://blog.stackademic.com/rag-using-llama3-langchain-and-chromadb-77bba0154df4 <br/>
+
 <h2> Large Langugate Model</h2> 
 Language models have exploded on the internet ever since ChatGPT came out, and rightfully so. They can write essays, code entire programs, and even make memes. 
 <br/>
