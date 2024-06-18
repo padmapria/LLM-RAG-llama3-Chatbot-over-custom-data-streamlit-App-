@@ -60,30 +60,19 @@ https://qdrant.tech/articles/what-is-rag-in-ai/
 <h2> How to run This Application</h2> 
 **Note:** Download and install the LLaMA 3 model (8B) from the official website: <br/>
 https://ollama.com/blog/llama3 <br/>
-Install the OLLAMA server by following the instructions on the same website <br/>
+Install the OLLAMA server by following the instructions on the above website <br/><br/>
 
-Running the Application:<br/>
+<b> Running the Application: </b> <br/>
 Start the OLLAMA server by running the command 'ollama serve' in your terminal <br/>
-Make sure the server is running and listening on the default port (8080)<br/>
-Run the application by executing the Python script (e.g., app.py)<br/>
-Access the application through a web browser by navigating to http://localhost:8080 (or the IP address and port number specified in the script)<br/>
+By default server runs in the port (11434)<br/>
+Run the application by executing the Python script (e.g., app.py)<br/><br/>
+Access the application through a web browser by navigating to http://localhost:11434 <br/><br/>
 
 
 1. Clone this git repository from command prompt<br/>
 git clone https://github.com/padmapria/LLM-RAG-Chatbot-over-custom-data-streamlit-App.git    
 cd LLM-RAG-Chatbot-over-custom-data-with-streamlit-ui    
 
-2. Create a `.env` file inside the 'app' folder and store the key as follows:     
-OPENAI_API_KEY=YOUR_API_KEY_HERE<br/>
-ELASTIC_SEARCH_PWD=DkIedPPSCb<br/>
-
-. Refer to the key in `rag.py` by:  
-```python   
-from dotenv import load_dotenv   
-load_dotenv()   
-openai_api_key = os.getenv("OPENAI_API_KEY")    
-ELAST_SEARCH_PWD = os.getenv('ELASTIC_SEARCH_PWD')   
-```
 3. Install Docker Desktop on your computer and start Docker Desktop    
 
 4. Start the application by running the command from the command prompt <br/>
